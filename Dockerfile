@@ -9,3 +9,5 @@ RUN pip install rax-autoscaler
 
 ADD files/boot.sh /usr/local/bin/autoscale-service
 RUN chmod +x /usr/local/bin/autoscale-service
+
+ADD files/logging.conf /etc/rax-autoscaler/logging.conf
